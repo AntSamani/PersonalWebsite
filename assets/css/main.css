@@ -1,14 +1,24 @@
+@import "navbar.css";
+@import "mobile.css";
+
 body {
-    font-family: 'Muli',
-    sans-serif;
+    font-family: 'Muli', sans-serif;
 }
 .mainJumbo {
     margin-bottom: 25px;
 }
-div.typing-text {
+.typing-text {
     font-size: 5em;
     font-weight: bold;
     margin: 0;
-    padding: 0;
-  
-  }
+    padding: 0;  
+}
+.mainJumbo {
+    padding-top: 5%;
+}
+#changingText {
+    color: gray;
+}
+.changingLead {
+    font-size:2.2em;
+}
