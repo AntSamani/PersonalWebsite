@@ -4,7 +4,7 @@
 		return app.init();
 	});
 	app = {
-		text: "Design, Develop, Deploy.",
+		text: "ANTHONY SAMANi",
 		index: 0,
 		chars: 0,
 		speed: 100,
@@ -25,7 +25,7 @@
 	};
 }.call(this));
 
-var languages = ["Essential", "Simple", "Professional", "Elegant", "Scalable"];
+var languages = ["Designer", "Web Developer", "Problem Solver"];
 var counter = 0;
 var  x = document.getElementById("changingText");
 setInterval(change, 1400);
