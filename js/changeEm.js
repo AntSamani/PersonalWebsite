@@ -4,7 +4,7 @@
 		return app.init();
 	});
 	app = {
-		text: "ANTHONY SAMANi",
+		text: "Design, Develop, Deploy.",
 		index: 0,
 		chars: 0,
 		speed: 100,

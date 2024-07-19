@@ -1,25 +1,32 @@
 
+:root {
+    --primary-font:"Montserrat", sans-serif;
+    --secondary-font:"Outfit", sans-serif;
+    --primary-color: black;
+    --secondary-color: limegreen;
+    --jumbo-font: 7em; /*primarily used on hero-sec main display. */
+}
 
 body {
-    font-family: 'Muli', sans-serif;
+    font-family: var(--primary-font);
 }
-.mainJumbo {
-    margin-bottom: 25px;
+.navbar {
+    background-color: black;
+}
+.main-hero {
+    background-color: black;
+    color: white;
+    height: 100vh;
 }
 .typing-text {
-    font-size: 5em;
-    font-weight: bold;
+    font-size: 10em;
+    font-weight: 800;
     margin: 0;
     padding: 0; 
-    text-align: center; 
 }
-.mainJumbo {
-    padding-top: 5%;
-    text-align: center;
-}
+
 #changingText {
-    color: gray;
-    
+    color: gray;  
 }
 .changingLead {
     font-size: 2.2em;
@@ -28,10 +35,3 @@ body {
     position: relative;
     color: white; 
 }
-.dot {
-    height: 10px;
-    width: 10px;
-    background-color: white;;
-    border-radius: 50%;
-    display: inline-block;
-  }
