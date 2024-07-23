@@ -18,7 +18,11 @@ body {
     color: white;
     height: 100vh;
     padding-left: 100px;
-
+}
+#hero-intro {
+    font-family: var(--secondary-font);
+    font-weight: 100;
+    font-size: 2em;
 }
 .typing-text {
     font-size: 10em;
@@ -38,6 +42,13 @@ body {
     position: relative;
     color: white; 
 }
+.cta-btn {
+    border-radius: 5px;
+    font-weight:bolder; 
+    padding: 10px; 
+    padding-left: 32px; 
+    padding-right: 32px;
+}
 .sec-header {
     font-family: var(--primary-font);
     font-weight: 600;
@@ -46,4 +57,7 @@ body {
 .exp-containers {
     text-align: center;
 
+}
+.about-sec-cont {
+    text-align: center;
 }
